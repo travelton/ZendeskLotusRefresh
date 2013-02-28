@@ -1,0 +1,17 @@
+{
+  "name": "Injects a refresh event for Zendesk New \"Lotus\" interface. v1.0 (2/28/2013)",
+  "version": "1.0",
+  "permissions": [
+    "https://*.zendesk.com/agent/#/filters/*"
+  ],
+  "icons":{"128": "refresh-icon.png"},
+  "web_accessible_resources": [
+	"script.js"],
+    "content_scripts": [
+    {
+      "matches": ["https://*.zendesk.com/agent/#/filters/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 2
+}
