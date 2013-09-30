@@ -1,6 +1,8 @@
 ZendeskLotusRefresh
 ===================
 
+**This project is no longer maintained. See the replacement: https://github.com/brandonstubbs93/ZendeskRefresh **
+
 Refreshes views for Zendesk Lotus Interface.  
 
 content.js - Injects "script.js" in to Zendesk's interface.   
